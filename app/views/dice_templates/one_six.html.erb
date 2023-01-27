@@ -1,0 +1,18 @@
+<h1>1d6</h1>
+
+<ul>
+  <li> 
+    <%= @dice_nums[0]%>
+  </li>
+</ul>
+
+<ul>
+  <%counter = 0%>
+  <%while counter < 2%>
+    <li>
+      <%= @dice_nums[counter]%>
+      <%counter = counter + 1%>
+    </li>
+    
+  <%end%>
+</ul>
